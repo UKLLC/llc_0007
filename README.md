@@ -10,4 +10,4 @@ Using data collected during the pandemic from study participants from Understand
 We will do this whilst dealing with differences in age, gender, and ethnicity. We will compare the jobs and the job roles for each survey, then try to combine the results across the surveys.
 The findings of this study will be combined with other similar studies. These results will help provide a better understanding of job roles and COVID-19 infection. They will help us identify how to reduce COVID cases at work. We hope they will inform and improve our response to the current and any future pandemic.
 
-Matthew Gittins
+Matthew Gittins matthew.gittins@manchester.ac.uk
