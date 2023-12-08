@@ -1,0 +1,28 @@
+
+
+***ANALYSIS INSTRUCTIONS
+***************************
+
+The following outlines the order in which the stata syntaxes can be applied to replicate the analysis.
+If you just want the data formatting use files 1 (individual studies) and 2 (NHS infection/vaccination).
+
+Note, this follows a 2 stage individual meta-analysis procedure. Each individual cohort study is analysed, the results extracted
+and combind in a seperate meta-analysis. This was to try and avoid harmonisation and heterogeneity issues, in hindsight it is a lot of work (150.000 lines of code)
+so recommend you aim for a 1 stage IPD meta.  
+
+Note, change cd to appropriate drive with raw study datafiles, and storage for results
+
+**IN MAIN ANALYSIS FOLDER
+Step 1 - Run syntax 1 and 2 to format data for each individual study, and format the NHS diagnostic testing and vaccination data
+
+Step 2 - Run Syntax 3, this sets up a data files to act as repostiories for the results of each individual study analysis
+
+Step 3 - Run syntax 4 and 5 to analyse each individual study across the whole time-period, and then split by time-periods (note this will take a few days to run).
+
+Step 4 - Use Syntax 6 to combine all results of each study into one dataset for combined analysis  
+i.e. one data contains results of analysis with and without time-varying, analysis with and without levels of covariate adjustment (inc vaccination adjustment).   
+
+**FINALLY, 
+
+
+To produce easy summary statistics across all cohort studies in one file use syntax 8 (could use this for a one stage IPD)
